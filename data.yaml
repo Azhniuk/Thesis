@@ -1,4 +1,0 @@
-train: /media/sofi/Data/Thesis folder/dataset/images/train
-val: /media/sofi/Data/Thesis folder/dataset/images/val
-nc: 1
-names: ['cell']
