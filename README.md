@@ -20,20 +20,26 @@ Automated computer vision system for detecting, counting, and classifying sperm 
 
 **Solution**: Automated detection and classification of three sperm cell types:
 - **Normal Sperm** (optimal for fertilization)
-- **Sperm Clusters** (multiple cells grouped together)  
+- **Sperm Clusters** (multiple cells)  
 - **Small/Pinhead Sperm** (morphologically abnormal)
 
 
 ### Start
+To use the developed model, you first need to clone the repository and install the Ultralytics library.
 ```bash
 git clone https://github.com/yourusername/sperm-analysis.git
 pip install ultralytics streamlit opencv-python pandas numpy matplotlib
 ```
 
 ### Run Web Application
+Then, open the terminal from the folder where you cloned the repository and run the following code.
 ```bash
 streamlit run final_thesis_results/ui-final.py
 ```
+Make sure that you have downloaded not only the UI file but also the weights of the final model. These two files are essential for the program to work properly.
+
+### At that stage, the program should be ready to use.
+You could upload the video and test the performance of the developed model
 
 ## 📊 Technical Details
 
@@ -46,12 +52,19 @@ streamlit run final_thesis_results/ui-final.py
 ## 📁 Repository Structure
 
 ```
-├── final_thesis_results/
+├── all final model metrics, weights, etc
+│   ├── F1_curve
+│   ├── confusion matrix
+│   ├── many other files/metrics/results of the final model performance
+├── files used while training
+│   ├── lr0-plots.ipynb
+│   ├── model-version-selection.ipynb
+│   ├── and other: directory management, graphs
+├── final_thesis_results, selected/
 │   ├── best.pt              # Trained model weights
-│   ├── final_code.py        # Training script
-│   └── ui-final.py          # Streamlit web app
-├── validation_fps/          # Model validation
-└── Azhniuk_Smite.docx      # Complete thesis document
+│   ├── final_code.py        
+│   └── ui-final.py          # Streamlit web app    
+└── validation_fps/   
 ```
 
 
@@ -61,4 +74,4 @@ streamlit run final_thesis_results/ui-final.py
 
 ---
 
-*Making IVF more accessible through AI-powered automation*
+*You were once the quickest sperm cell*
