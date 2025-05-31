@@ -16,4 +16,4 @@ for split in ["train", "val"]:
             with open(file_path, "w") as f:
                 f.writelines(new_lines)
 
-print("✅ Fixed labels: Only class 0 remains.")
+print("Fixed labels")
