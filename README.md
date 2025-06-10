@@ -14,6 +14,8 @@ Automated computer vision system for detecting, counting, and classifying sperm 
 - **Real-time Processing** at 41.77 FPS
 - **Web application** with an integrated model
 
+[![Video](https://img.youtube.com/vi/lV3IrCqE9bE/0.jpg)](https://www.youtube.com/watch?v=lV3IrCqE9bE)
+
 ## Problem & Solution
 
 **Problem**: Manual sperm analysis in IVF is time-consuming (30-60 minutes), subjective, and requires expensive equipment 
